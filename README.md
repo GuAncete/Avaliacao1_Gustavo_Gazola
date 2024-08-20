@@ -1,22 +1,41 @@
-# Sistema de Venda de Canarios
+# Venda de Canário
 
-Foi solicitado um sistema em Java onde deveria possuir no minimo uma tabela de relacionamento 1XN e uma tabela NXN, então desenvolvi um sistema de Vendas,
-onde o produto seria Canários, mas é possivel facilmente substituir por outros produtos caso necessário.
+**Venda de Canário** é um sistema de gestão de vendas desenvolvido em Java utilizando o NetBeans IDE. O projeto é estruturado com o padrão arquitetural MVC (Model-View-Controller) e utiliza o PostgreSQL como sistema de gerenciamento de banco de dados. Este sistema permite a administração de compradores, canários, aviários e funcionários, além de possibilitar a efetuação de vendas.
 
-## 🚀 Começando
+## Funcionalidades
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+- **Cadastro de Comprador:** Adicione e gerencie informações dos compradores.
+- **Cadastro de Canário:** Registre detalhes dos canários disponíveis para venda.
+- **Cadastro de Aviário:** Gerencie os aviários onde os canários são mantidos.
+- **Cadastro de Funcionário:** Mantenha um registro dos funcionários envolvidos nas operações.
+- **Efetuação de Venda:** Realize transações de venda de canários para os compradores.
 
-### 🔧 Instalação
+## Tecnologias Utilizadas
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+- **Java:** Linguagem de programação principal do projeto.
+- **NetBeans:** IDE utilizada para o desenvolvimento do sistema.
+- **PostgreSQL:** Sistema de gerenciamento de banco de dados para armazenar informações.
 
-```
-Necessário criar o banco de dados com as informações do arquivo "canario.txt" e informar na conexaoDAO as informações do banco
-```
+## Estrutura do Projeto
 
+O projeto está organizado seguindo o padrão MVC:
 
-## 🛠️ Construído com
+- **Model:** Contém as classes que representam os dados do sistema e a lógica de negócio.
+- **View:** Contém as classes responsáveis pela interface do usuário.
+- **Controller:** Gerencia as interações entre a View e o Model.
 
-* [NetBeans22](https://netbeans.apache.org/front/main/download/nb22/) - Ambiente de desenvolvimento
-* [pgAdmin](https://www.pgadmin.org/download/) - Banco de Dados
+## Pré-Requisitos
+
+Antes de rodar o projeto, certifique-se de ter os seguintes requisitos instalados:
+
+- **Java Development Kit (JDK):** Versão 8 ou superior.
+- **NetBeans IDE:** Versão 8.2 ou superior.
+- **PostgreSQL:** Versão 12 ou superior.
+- **pgAdmin:** Ferramenta de administração para PostgreSQL.
+
+## Configuração do Ambiente
+
+1. **Clone o Repositório:**
+
+   ```bash
+   git clone https://github.com/SEU_USUARIO/venda-de-canario.git
