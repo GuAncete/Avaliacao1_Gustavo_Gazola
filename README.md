@@ -38,4 +38,4 @@ Antes de rodar o projeto, certifique-se de ter os seguintes requisitos instalado
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/SEU_USUARIO/venda-de-canario.git
+   git clone https://github.com/GuAncete/venda-de-canario.git
